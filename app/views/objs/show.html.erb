@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @obj.name %>
+</p>
+
+<p>
+  <strong>App:</strong>
+  <%= @obj.app_id %>
+</p>
+
+<%= link_to 'Edit', edit_obj_path(@obj) %> |
+<%= link_to 'Back', objs_path %>
